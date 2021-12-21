@@ -1,0 +1,20 @@
+body {
+	background: rgba(255, 68, 0, 0.787);
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.container-img {
+	max-width: 300px;
+	height: auto;
+}
+
+.container img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
